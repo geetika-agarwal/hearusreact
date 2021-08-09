@@ -17,7 +17,7 @@ export const TestimonialHeading = styled.h2`
 
 export const TestimonialContainer = styled.div`
     width: 100%;
-    height: 50vh;
+    height: 65vh;
 
     @media only screen and (max-width: 991px) {
         height: 100%;
