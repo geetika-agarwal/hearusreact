@@ -9,7 +9,7 @@ export const BlogCardContainer = styled.div`
 
     @media only screen and (max-width: 991px) {
         width: 20rem;
-        height: 30rem;
+        height: 32rem;
     }
 `
 
