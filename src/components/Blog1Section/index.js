@@ -2,10 +2,12 @@ import React from 'react';
 import { AiFillCaretRight } from 'react-icons/ai';
 import blogBackround from '../../images/blog-background-1.jpg';
 import { BlogBackground, BlogBackgroundImg, BlogContent, BlogHeading, BlogList, BlogParagraph, BlogSubheading } from './Blog1Elements';
+import ScrolltoTop from '../ScrollToTop';
 
 const Blog1Section = () => {
     return (
         <>
+            <ScrolltoTop />
             <BlogBackground>
                 <BlogBackgroundImg src={blogBackround} />   
             </BlogBackground>   
